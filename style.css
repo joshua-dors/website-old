@@ -79,3 +79,30 @@ body {
 .figma {
     color: purple;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #8c9daf;
+}
+
+.bg-dark {
+    background: #071829 !important;
+}
+
+.text-muted {
+color: #415163 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #08529d;
+    border: none !important;
+}
+
+.btn {
+    padding: 0.675rem 1rem !important;
+    border-radius: 0.5rem !important;
+}
+
+.tag {
+    background: #ebedef;
+}
