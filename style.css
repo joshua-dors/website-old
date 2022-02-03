@@ -5,30 +5,18 @@ body {
     font-family: 'Inter', sans-serif !important;
 }
 
-.hero-img {
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    height: 100vh;
-    background-image: linear-gradient(to bottom, hsl(218deg 73% 7% / 95%), rgb(1 16 32 / 85%)),
-        url(img.jpeg);
-}
-
 .mw-50 {
     max-width: 42rem;
     margin-left: auto;
     margin-right: auto;
 }
 
-.down-arrow {
-    transition: all 300ms ease-in-out;
-    animation: blinker 3s linear infinite;
-}
-
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
+.hero-img {
+    background-size: cover;
+    height: 12rem;
+    background-position: center;
+    background-image: linear-gradient(to right, hsl(218deg 93% 3%), rgb(1 16 32 / 72%)),
+        url(img.jpeg);
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -56,12 +44,8 @@ body {
     font-weight: 400;
 }
 
-.nav-link {
-    font-size: 1.125rem;
-}
-
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 960px;
+    max-width: 880px;
 }
 
 .hug {
@@ -89,12 +73,12 @@ body {
 }
 
 .text-muted {
-color: #415163 !important;
+    color: #415163 !important;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #08529d;
+    background-color: #0061f2;
     border: none !important;
 }
 
@@ -105,4 +89,33 @@ color: #415163 !important;
 
 .tag {
     background: #ebedef;
+}
+
+.bg-light {
+    background-color: #f2f6fc !important;
+}
+
+.rounded {
+    border-radius: 0.5rem !important;
+}
+
+.rounded-top {
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+}
+
+.icon-nav {
+    background: #0062f2;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #020710;
+}
+
+.btn-second {
+    background: #dae7fb;
+    color: #0062f2;
 }
