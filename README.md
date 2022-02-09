@@ -1,0 +1,1 @@
+Created a simple website portfolio to showcase my skills and projects. Developed with HTML, CSS, & Bootstrap.
