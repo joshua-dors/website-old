@@ -11,9 +11,10 @@ body {
 
 @keyframes transitionIn {
     from {
-      opacity:0;
-      transform: translateY(-10px)
+        opacity: 0;
+        transform: translateY(-10px)
     }
+
     to {
         opacity: 1;
         transform: translateY(0)
@@ -36,40 +37,8 @@ body {
     color: purple;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #8c9daf;
-}
-
-.bg-dark {
-    background: #071829 !important;
-}
-
 .text-muted {
     color: #b8c5d1 !important;
-}
-
-.tag {
-    background: #ebedef;
-}
-
-.icon-nav {
-    background: #0062f2;
-    border-radius: 50%;
-    height: 2rem;
-    width: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #020710;
-}
-
-.text-sub-heading {
-    color: #70829d !important;
-}
-
-.vh-20 {
-    height: 24rem;
 }
 
 .hero-bg {
@@ -89,8 +58,13 @@ body {
     padding-bottom: 5rem;
 }
 
+.py-7 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
 .fs-5 {
-    font-size: 1.125rem!important;
+    font-size: 1.125rem !important;
 }
 
 .text-footer {
