@@ -65,9 +65,17 @@ body {
     padding: 0.5rem 1.5rem !important;
 }
 
+.hero-btn-icon {
+    padding: 0.5rem 1rem !important;
+}
+
 .py-6 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+}
+
+.fs-5 {
+    font-size: 1.125rem!important;
 }
 
 .text-footer {
